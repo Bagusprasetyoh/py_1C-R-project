@@ -8,7 +8,6 @@ class Application(Frame):
 
     def __init__(self):
         super().__init__()
-        self.ia = 10
         self.is_all_data = IntVar()
         self.selected_month_1 = StringVar()
         self.selected_year_1 = StringVar()
